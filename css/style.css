@@ -1,0 +1,355 @@
+/* RESET 2022 */
+html{
+	font-size:62.5%;
+	scroll-behavior:smooth;
+}
+body{
+	font-size:1.6rem;
+    font-family: 'Aria', sans-serif;
+	margin:0
+}
+section,figure,h1,h2,h3,h4,h5,h6,ol,p,ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	color:#000;
+	text-decoration:none;
+}
+*{ 
+	box-sizing:border-box;
+}
+button{
+	padding:0;
+	border:0;
+	background-color:transparent;
+}
+/* HEADER */
+header{
+    height: 7.5rem;
+    width: 100%;
+}
+body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.5) 50%), url(../assets/1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+header 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    padding-bottom: 5rem;
+}
+header nav{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+header .logo{
+    color: #ff7200;
+    font-size: 3.5rem;
+    font-family: Arial;
+    padding-left: 6rem;
+    float: left;
+    padding-top: 1rem;
+    margin-top: .5rem;
+}
+
+header .menu{
+    max-width: 90rem;
+    float: left;
+}
+
+header ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 6.2rem;
+    margin-top: 2.7rem;
+    font-size: 1.4rem;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+header ul li a:hover{
+    color: #ff7200;
+}
+
+header .search{
+    max-width: 33rem;
+    float: left;
+    margin-left: 5rem;
+}
+
+header .srch{
+    font-family: 'Times New Roman';
+    max-width: 20rem;
+    height: 4rem;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+header form input[type="submit"]{
+    height: 4rem;
+    background: #ff7200;
+    border: .2rem solid #ff7200;
+    margin-top: 1.3rem;
+    color: #222;
+    font-size: 1.5rem;
+    border-bottom-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+header form input[type="submit"]:hover{
+    color: #000;
+}
+
+header form input[type="submit"]:focus{
+    outline: none;
+}
+
+header .srch:focus{
+    outline: none;
+}
+main{
+    height: 90vh;
+    display: block;
+    padding-bottom: 50rem;
+
+}
+main .content{
+    max-width: 120rem;
+    height: auto;
+    padding-top: 4rem;
+    margin: auto;
+    color: #fff;
+}
+
+main .content .par{
+    padding-left: 2rem;
+    padding-bottom: 2.5rem;
+    font-family: Arial;
+    letter-spacing: .12rem;
+    line-height: 3rem;
+}
+
+main .content h1{
+    font-family: 'Times New Roman';
+    font-size: 5rem;
+    padding-left: 2rem;
+    letter-spacing: .2rem;
+}
+
+main .content .cn{
+    max-width: 16rem;
+    height: 4rem;
+    background: #ff7200;
+    border: none;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    transition: .3s ease;
+    
+}
+
+main .cn:hover{
+    background-color: #fff;
+}
+
+main .content span{
+    color: #ff7300;
+    font-size: 6.5rem;
+}
+
+main .form{
+    display: block;
+    max-width: 30rem;
+    max-height: 45rem;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 50%,rgba(0,0,0,0.8) 50%);
+    position: absolute;
+    top: 15rem;
+    left: 96rem;
+    transform: translate(0%,-5%);
+    border-radius: 1rem;
+    padding: 2.5rem;
+}
+main .form form{
+    width: 100%;
+    display: block;
+}
+main .form h2{
+    font-family: sans-serif;
+    text-align: center;
+    color: #c35b07;
+    font-size: 2.2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    margin: .2rem;
+    padding: .8rem;
+}
+
+main .form input{
+    width: 100%;
+    height: 3.5rem;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    margin-top: 3rem;
+    font-family: sans-serif;
+}
+main .form ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .form input:focus{
+    outline: none;
+}
+
+main ::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+main .form input[type="submit"]{
+    max-width: 24rem;
+    height: 4rem;
+    background: #ff7200;
+    border: none;
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    color: #222;
+    transition: 0.4s ease;
+}
+main .form input[type="submit"]:hover{
+    background: #fff;
+    color: #ff7200;
+}
+main .form input[type="submit"] a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+main .form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    padding-top: 2rem;
+    text-align: center;
+    color: #fff;
+}
+main .form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+main .form .link span{
+    color: #fff;
+}
+main .liw{
+    color: #fff;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+main .icons a{
+    text-decoration: none;
+    color: #fff;
+}
+main .icons ion-icon{
+    color: #fff;
+    font-size: 3rem;
+    padding-left: 1.4rem;
+    padding-top: .5rem;
+    transition: 0.3s ease;
+}
+main .icons ion-icon:hover{
+    color: #ff7200;
+}
+
+footer{
+    display: block;
+    padding: 2rem;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 70rem){
+    header{
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    header .menu{
+        display: block;
+    }
+    header .menu ul{
+        display: block;
+    }
+    main .content h1{
+        text-align: center;
+        font-size: 4rem;
+    }
+    main .content span{
+        font-size: 4rem;
+    }
+    main .content .par {
+        text-align: center;
+    }
+    main .content .cn{
+        margin: 0 auto;
+    }
+    main .form{
+        position: relative;
+        top: 3rem;
+        display: block;
+        left: 0;
+        margin: 0rem auto;
+    }
+    main{
+        height: 100%;
+    }
+}
