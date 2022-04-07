@@ -23,6 +23,8 @@ document.addEventListener("DOMContentLoaded", () => {
             warning.innerText = "Connexion réussie";
             localStorage.setItem("user", email);
             sessionStorage.setItem("user", "sessionid");
+            localStorage.setItem("password", password);
+            sessionStorage.setItem("password", "sessionpassword");
             alert("Bienvenue "+ email);
         } else if (password.match(exprmdp)) {
             warning.innerText = "Mail invalide";
