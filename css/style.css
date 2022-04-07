@@ -156,7 +156,7 @@ main .content .par{
     line-height: 3rem;
 }
 
-main .content h1{
+main .content h2{
     font-family: 'Times New Roman';
     font-size: 5rem;
     padding-left: 2rem;
@@ -216,7 +216,7 @@ main .success{
     padding-top: 1rem;
     text-align: center;
 }
-main .form h2{
+main .form h3{
     font-family: sans-serif;
     text-align: center;
     color: #c35b07;
@@ -334,7 +334,7 @@ footer p{
     header .menu ul{
         display: block;
     }
-    main .content h1{
+    main .content h2{
         text-align: center;
         font-size: 4rem;
     }
