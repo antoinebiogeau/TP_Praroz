@@ -40,14 +40,9 @@ header
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    width: 80%;
-    margin: 0 auto;
-    height: auto;
-    padding-bottom: 5rem;
-}
-header nav{
     max-width: 120rem;
     margin: 0 auto;
+    height: auto;
 }
 
 header .logo{
@@ -55,18 +50,15 @@ header .logo{
     font-size: 3.5rem;
     font-family: Arial;
     padding-left: 6rem;
-    float: left;
     padding-top: 1rem;
     margin-top: .5rem;
 }
 
 header .menu{
     max-width: 90rem;
-    float: left;
 }
 
 header ul{
-    float: left;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +85,6 @@ header ul li a:hover{
 
 header .search{
     max-width: 33rem;
-    float: left;
     margin-left: 5rem;
 }
 
@@ -197,13 +188,12 @@ main .form{
     max-height: 45rem;
     background: linear-gradient(to top, rgba(0,0,0,0.8) 50%,rgba(0,0,0,0.8) 50%);
     position: absolute;
-    top: 18rem;
+    top: 12rem;
     left: 70%;
     border-radius: 1rem;
     padding: 2.5rem;
 }
 main .form form{
-    width: 100%;
     display: block;
 }
 main .warning{
